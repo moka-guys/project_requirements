@@ -6,7 +6,7 @@ The requirements doc may require a few rounds of iteration before it is finalise
 
 You may wish to conduct user research prior to creating this requirements doc - https://github.com/moka-guys/project_requirements/blob/master/user_research.md
 
-Information on functional and non-functional requirements (a functional requirement describes what a software system should do, while non-functional requirements place constraints on how the system will do so)- https://stackoverflow.com/questions/16475979/what-is-the-difference-between-functional-and-non-functional-requirement
+Information on functional and non-functional requirements (a functional requirement describes what a software system should do, while non-functional requirements place constraints on how the system will do so) - https://stackoverflow.com/questions/16475979/what-is-the-difference-between-functional-and-non-functional-requirement
 
 
 
