@@ -6,7 +6,8 @@
 - Other key relationships:
 
 ## Current Status
-Draft
+Final
+- 08/01/2018
 
 ## Purpose
 Record classification of variants against the ACMG criteria: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4544753/
