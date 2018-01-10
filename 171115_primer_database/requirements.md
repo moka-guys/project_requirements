@@ -1,13 +1,13 @@
 
 # Primer database
 ## Participants
-- Product owner: Viapath Genome Informatics
+- Product owner: Aled Jones
 - Team: Viapath Genome Informatics
 - Stakeholders: Viapath Genome Informatics, Viapath Genetics laboratories
 - Other key relationships: 
 
 ## Current Status
-Draft 
+Final 
 
 ## Purpose
 A database which records primers designed by the laboratory using the PHIGIS primer design tool. 
