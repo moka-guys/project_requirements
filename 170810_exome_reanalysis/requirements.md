@@ -5,7 +5,7 @@
     - Stakeholders: Genome Informatics
     - Other key relationships: Mike Simpson Group, Clinical Genetics
 ## Current Status
-Draft
+Final
 ## Purpose
 Provide audit trail for patients and data for this research project
 ## Project Goals & Objectives
