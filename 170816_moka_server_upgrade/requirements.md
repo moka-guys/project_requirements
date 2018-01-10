@@ -6,7 +6,7 @@
 - Other key relationships: GSTT Clinical Genetics
 
 ## Current Status
-Draft
+Final
 
 ## Purpose
 Transition Moka (SQL Server instance and Windows file share) from current GSTT Windows server (GSTTV-MOKA) to new GSTT Windows servers (SV-PR-GENAAP01 & SV-TE-GENAAP01)
