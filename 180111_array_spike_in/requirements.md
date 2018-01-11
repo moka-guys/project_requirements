@@ -44,7 +44,7 @@ The App should also:
     * If mismatch between sample ID and unique identifying probes flag issue to user.
         * Produce minimal summary table in Moka to aid in troubleshooting.
         * Record full results in txt file to aid any further troubleshooting.
-    * Another QC column is required in the Moka table 'ArrayLabelling' to display these results  
+    * Additional QC columns required in the Moka table 'ArrayLabelling' to display these results and record that this test has been performed.  
 * Adhere to minimal viable product
 
 ### Usability
