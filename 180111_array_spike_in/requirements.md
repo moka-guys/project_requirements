@@ -37,17 +37,20 @@ The App should also:
 
 ### Technical (non-functional)
 * Incorporated into existing Moka system.
-* The Moka table ArrayLabelledDNA requires a column identifying which trio of identifying probes are assigned to each well (Two columns - Set A and B).
-* Python script to parse the relevant feature extraction file from \Genetics\Data2\Array\FeatureExtraction - the file name required can be constructed from the ArrayID key in Moka 
+* The Moka table ArrayLabelledDNA requires a field identifying which trio of identifying probes are assigned to each well.
+* Python script to parse the relevant feature extraction file from S:\Genetics_Data2\Array\FeatureExtraction - the file name required can be constructed from the ArrayID & Subarray fields in Moka table ArrayLabelling
 * Script checks each of the 10 spiked-in probes (present in triplicate on the array) in the FE file, probe is considered present if that probe is saturated (Boolean Value of 1 in the 'gIsSaturated' or 'rIsSaturated' fields)
-    * If <3 probes detected - throw an error (Probe has failed)
-    * If >3 probes detected - throws an error (Cross-contamination possible)
-    * If mismatch between sample ID and unique identifying probes flag issue to user.
-        * ~~Produce minimal summary table in Moka to aid in troubleshooting.~~
-        * Record full results in txt file to aid any further troubleshooting.
-    * Additional QC columns required in the Moka table 'ArrayLabelling' to display these results and record that this test has been performed.  
+    * Find out what is output is a probe fails    
+    * Assess each of the three triplicated spike in probes - total of 30 data points
+    * Decide how to deal with failure of replicated probe(s) 
+    * Decide how to deal with a probe (including it's replicates) fails - can the probe combinations be designed so that two probes are sufficient to identify a sample?
+    * If identification fails - throw an error
+    * If identification suggests a sample switch - throw an error
+    * If >3 probes detected - throws an error (cross-contamination possible)
+    * Output a txt file of results to aid any further troubleshooting.
+* Additional QC columns required in the Moka table 'ArrayLabelling' to display these results and record that this test has been performed.  
 * Adhere to minimal viable product
 
 ### Usability
-* Must be simple for clinical scientists to access and use.
+* Must be simple to access and use.
 * Must be consistent with existing Moka data structures and application logic.
