@@ -18,7 +18,7 @@ Ensure that any possible sample swaps are detected from Array CGH data and flagg
 ### Functional
 The Resulting App should:
 * Allow users to run the app from within Moka.
-* As good practice two sets of plate layouts should be provided for spiking-in probes (Sets A & B).  Selection of set A or B will be done manually by the technician with the set used being alternated between runs.
+* As good practice two sets of plate layouts should be provided for spiking-in probes (Sets A & B).  Selection of set A or B will be done manually by the person creating runsheets with the set used being alternated between runs.
 * Two use case scenarios need to be catered for:
     * Full 96 plate runs (Wells A-H:1-12)
     * Half 96 plate runs (Wells A-H:1-3 & A-H:7-9)
