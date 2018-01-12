@@ -32,7 +32,7 @@ The App should also:
 * If QC step is Failed
     * Record in Moka that QC step failed.
     * Flag issue to user.
-    * Provide a table to user showing the details of the samples which failed.
+    * ~~Provide a table to user showing the details of the samples which failed.~~
 * Full results must be available as a text file to aid in troubleshooting.
 
 ### Technical (non-functional)
@@ -43,7 +43,7 @@ The App should also:
     * If <3 probes detected - throw an error (Probe has failed)
     * If >3 probes detected - throws an error (Cross-contamination possible)
     * If mismatch between sample ID and unique identifying probes flag issue to user.
-        * Produce minimal summary table in Moka to aid in troubleshooting.
+        * ~~Produce minimal summary table in Moka to aid in troubleshooting.~~
         * Record full results in txt file to aid any further troubleshooting.
     * Additional QC columns required in the Moka table 'ArrayLabelling' to display these results and record that this test has been performed.  
 * Adhere to minimal viable product
