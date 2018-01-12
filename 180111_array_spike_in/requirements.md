@@ -12,7 +12,7 @@ Draft
 Check for sample mix-ups in CGH Array data.
 
 ## Project Goals & Objectives
-Ensure that any possible sample swaps are detected from Array CGH data and flagged for further investigation by Clinical Scientists.  This is accomplished using a unique combination of 3 'spiked-in' probes which identify each sample.  This App compares the detected 'spiked-in' probes to those expected on the sample sheet and raises a flag if there is a mismatch. Additionally the script throws an error if more than 3 probes are detected in a sample as this may indicate cross-contamination of samples, or alternatively if it detects a probe has failed.    
+Ensure that any possible sample swaps are detected from Array CGH data and flagged for further investigation by Clinical Scientists.  This is accomplished using a unique combination of 3 'spiked-in' probes which identify each sample.  This App compares the detected 'spiked-in' probes to those expected on the sample sheet and raises a flag if there is a mismatch. Additionally the script throws an error if more or less than 3 probes are detected in a sample as this may indicate a sample switch, contamination, or that one or more spike in probes have failed.    
 
 ## Requirements
 ### Functional
