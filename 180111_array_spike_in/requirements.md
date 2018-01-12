@@ -22,7 +22,8 @@ The Resulting App should:
 * Two use case scenarios need to be catered for:
     * Full 96 plate runs (Wells A-H:1-12)
     * Half 96 plate runs (Wells A-H:1-3 & A-H:7-9)
-* In total 96 unique probes are required - 48 for the Red Channel and 48 for the Green Channel.
+* In total 96 unique combinations of three probes are required - 48 for the Red Channel and 48 for the Green Channel, for set A. 
+    * For set B, the first 48 can be used for the Green Channel and the second 48 for the Red Channel.
 
 The App should also:
 * Record in Moka that this QC step has been run for audit purposes.
