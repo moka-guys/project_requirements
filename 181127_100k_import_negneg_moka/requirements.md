@@ -9,7 +9,7 @@
 Draft
 
 ## Purpose
-Negative negative 100k Genome Project cases are defined as cases where no Tier 1, 2 or CIP candidate variants have been identified. These cases can have negative reports issued automatically. The processs of reporting negative negatives is in the process of being automated. The first step of this process requires negative negative cases to be identified and booked into Moka at regular intervals.
+Negative negative 100k Genome Project cases are defined as cases where no Tier 1, 2 (and also CIP candidates where this analysis has been performed) have been identified. These cases can have negative reports issued automatically. The processs of reporting negative negatives is in the process of being automated. The first step of this process requires negative negative cases to be identified and booked into Moka at regular intervals.
 
 ## Project Goals & Objectives
 * Automatically import all new negative negative 100k results into Moka to allow generation of negative reports.
