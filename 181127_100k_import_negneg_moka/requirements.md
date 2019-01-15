@@ -20,8 +20,8 @@ Negative negative 100k Genome Project cases are defined as cases where no Tier 1
 * For each case:
   * If patient is not already in Moka, import details from GeneWorks.
   * Create an NGS test record in Moka, recording the Interpretation Request ID and Participant ID (proband) and assigning a negative negative result code.
-  * Look up referring clinician in LabKey:
-    * If clinician name has an exact match in the Moka Checker table, record them as referring clinician in Moka.
+  * Look up referring clinician using the "master clinician list":
+    * If clinician is in the Moka Checker table, record them as referring clinician in Moka.
     * Otherwise, alert user that they will need to add clinician manually.
 
 ### Technical (non-functional)
@@ -33,7 +33,7 @@ Negative negative 100k Genome Project cases are defined as cases where no Tier 1
   * Microsoft Access front end
   * MS SQL server backend
 * Adhere to minimal viable product
-* Reusable code
+* Nationally reusable code
 
 ### Usability
 - Set up to run automatically each night
